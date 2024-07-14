@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Recorder</class>
+ <widget class="QMainWindow" name="Recorder">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1030</width>
+    <height>539</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Recorder</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">#centralwidget{
+background-color:#000000;
+}
+</string>
+   </property>
+   <widget class="QGroupBox" name="AddANDRemoveBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>291</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="DescriptionL">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>178</y>
+       <width>251</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Scheherazade</family>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: white;
+font-weight: bold;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Description</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="AddRadioButton">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>310</y>
+       <width>233</width>
+       <height>44</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Scheherazade</family>
+       <pointsize>16</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: #FFFFFF;
+	border : 1px solid gray;
+	padding : 5px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Add Radio</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="RadioName">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>79</y>
+       <width>251</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	background-color: #FFFFFF;
+	border : 1px solid gray;
+	padding : 5px;
+}
+QLineEdit:hover:!pressed
+{
+background-color:grey;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Description">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>217</y>
+       <width>251</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	background-color: #FFFFFF;
+	border : 1px solid gray;
+	padding : 5px;
+}
+QLineEdit:hover:!pressed
+{
+background-color:grey;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="RadioNameL">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>251</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Scheherazade</family>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: white;
+font-weight: bold;
+}</string>
+     </property>
+     <property name="text">
+      <string>Radio'sName</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="URLL">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>109</y>
+       <width>251</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Scheherazade</family>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: white;
+font-weight: bold;
+}</string>
+     </property>
+     <property name="text">
+      <string>URL Link</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="RemoveRadioButton">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>430</y>
+       <width>233</width>
+       <height>44</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Scheherazade</family>
+       <pointsize>16</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: #FFFFFF;
+	border : 1px solid gray;
+	padding : 5px;
+}
+QPushButton:hover:!pressed
+{
+	background-color:grey;
+}</string>
+     </property>
+     <property name="text">
+      <string>Remove Radio</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="URL">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>148</y>
+       <width>251</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit{
+	background-color: #FFFFFF;
+	border : 1px solid gray;
+	padding : 5px;
+}
+QLineEdit:hover:!pressed
+{
+background-color:grey;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="RadioPlayerBox">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>0</y>
+      <width>741</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="RadioList">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>90</y>
+       <width>489</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Scheherazade</family>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: white;
+font-weight: bold;
+}</string>
+     </property>
+     <property name="text">
+      <string>Radio List</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBoxTest">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>110</y>
+       <width>471</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox{
+	background-color: #FFFFFF;
+	padding : 5px;
+	border: 1px solid black;
+    border-radius: 3px;
+}
+ QComboBox::drop-down {
+	 width: 32px;
+     border-top-right-radius: 3px;
+     border-bottom-right-radius: 3px;
+}
+             QComboBox::down-arrow {
+                image: url(:/new/icon/arrow_down.png);
+                width: 25;
+                height: 18;
+             }
+QComboBox::down-arrow::hover:!pressed
+{
+  border: 1px solid grey;
+background-color:white;
+}
+</string>
+     </property>
+     <property name="editable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PlayButton">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>370</y>
+       <width>121</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bahnschrift</family>
+       <pointsize>37</pointsize>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-image: url(:/new/icon/PlayButtonIcon.png) 0 0 0 0 stretch stretch;
+	background-color:grey;
+	border : 5px  #000000;
+	padding : 5px #000000 ;
+}
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+background-color:white;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="StopButton">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>370</y>
+       <width>131</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bahnschrift</family>
+       <pointsize>20</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-image: url(:/new/icon/PauseIcon.png) 0 0 0 0 stretch stretch;
+		background-color:grey;
+	border : 1px solid #000000;
+	padding : 5px;
+}
+QPushButton:hover:!pressed
+{
+  border: 3px solid red;
+background-color:white;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Recorders">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>370</y>
+       <width>141</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Scheherazade</family>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-image: url(:/new/icon/recordIcon.png) 0 0 0 0 stretch stretch;
+	background-color:grey;
+	border : 2px solid gray;
+	padding : 5px;
+}
+QPushButton:hover:!pressed
+{
+  border: 4px solid red;
+background-color:white;
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QSlider" name="VolumeSlider">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>267</y>
+       <width>399</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QSlider::groove:horizontal {
+border: 1px solid #bbb;
+background: white;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal {
+background: qlineargradient(x1: 0, y1: 0,    x2: 0, y2: 1,
+    stop: 0 #66e, stop: 1 #bbf);
+background: qlineargradient(x1: 0, y1: 0.2, x2: 1, y2: 1,
+    stop: 0 #bbf, stop: 1 #55f);
+border: 1px solid #777;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::add-page:horizontal {
+background: #fff;
+border: 1px solid #777;
+height: 10px;
+border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+    stop:0 #eee, stop:1 #ccc);
+border: 1px solid #777;
+width: 13px;
+margin-top: -2px;
+margin-bottom: -2px;
+border-radius: 4px;
+}
+
+QSlider::handle:horizontal:hover {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+    stop:0 #fff, stop:1 #ddd);
+border: 1px solid #444;
+border-radius: 4px;
+}
+
+QSlider::sub-page:horizontal:disabled {
+background: #bbb;
+border-color: #999;
+}
+
+QSlider::add-page:horizontal:disabled {
+background: #eee;
+border-color: #999;
+}
+
+QSlider::handle:horizontal:disabled {
+background: #eee;
+border: 1px solid #aaa;
+border-radius: 4px;
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="VolumeL">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>240</y>
+       <width>399</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Scheherazade</family>
+       <pointsize>14</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: white;
+font-weight: bold;
+}</string>
+     </property>
+     <property name="text">
+      <string>Volume</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="StopRecorderButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>370</y>
+       <width>141</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Scheherazade</family>
+       <pointsize>16</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-image: url(:/new/icon/Recordeit.png) 0 0 0 0 stretch stretch;
+	background-color: grey;
+	border : 2px solid gray;
+	padding : 5px;
+}
+QPushButton:hover:!pressed
+{
+ background-color:white;
+  border: 4px solid red;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="IBSRecorder">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>10</y>
+       <width>361</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Constantia</family>
+       <pointsize>37</pointsize>
+       <italic>true</italic>
+       <bold>true</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: grey;
+font-weight: bold;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>IBS</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>RadioName</tabstop>
+  <tabstop>URL</tabstop>
+  <tabstop>Description</tabstop>
+  <tabstop>AddRadioButton</tabstop>
+  <tabstop>RemoveRadioButton</tabstop>
+  <tabstop>comboBoxTest</tabstop>
+  <tabstop>VolumeSlider</tabstop>
+  <tabstop>Recorders</tabstop>
+  <tabstop>StopButton</tabstop>
+  <tabstop>PlayButton</tabstop>
+  <tabstop>StopRecorderButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

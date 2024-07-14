@@ -1,0 +1,94 @@
+{
+    "radio": [
+        {
+            "Description": "",
+            "RadioName": "default",
+            "URL": ""
+        },
+        {
+            "Description": "Wow",
+            "RadioName": "Radio Deutschland Funk",
+            "URL": "https://d111.rndfnk.com/ard/dlf/02/mp3/128/stream.mp3?aggregator=web&cid=01FBPXKD7AYM1NKT2H60NVGHEQ&sid=2DR5ngirquP8ZIzL8CUGqJmYPxQ&token=i7JHf4YlbO3tTwq1UfqWInWDIdyJhmmH1Z6ViCbW1Ts&tvf=gWE-BVHjCxdkMTExLnJuZGZuay5jb20"
+        },
+        {
+            "Description": "sa",
+            "RadioName": "Radio Bremen",
+            "URL": "https://icecast.radiobremen.de/rb/bremeneins/live/mp3/128/stream.mp3"
+        },
+        {
+            "Description": "hr3",
+            "RadioName": "Hessen Radio ",
+            "URL": "https://d111.rndfnk.com/ard/hr/hr3/live/mp3/128/stream.mp3?cid=01FBPYFJ2S8K48K92MWZXTG4PA&sid=2DWNkcLDDoqT3FnheKqvBrcbRb2&token=YnJvweYn-zZJkH-EEYQT3dyFDyJcGiF6-Jpi2OKaPKg&tvf=z00QCXl2DBdkMTExLnJuZGZuay5jb20"
+        },
+        {
+            "Description": "Aus Bayern",
+            "RadioName": "ANTENNE BAYERN",
+            "URL": "https://s3-webradio.antenne.de/antenne/stream/mp3"
+        },
+        {
+            "Description": "Schattenreich - The Gothic Radio.",
+            "RadioName": "Schattenreich",
+            "URL": "http://stream.laut.fm/schattenreich"
+        },
+        {
+            "Description": "\nCaze Radio Frankfurt am Main",
+            "RadioName": "Caze Radio",
+            "URL": "http://stream.laut.fm/cazeradio"
+        },
+        {
+            "Description": "POP & ROCK",
+            "RadioName": "Radio Summernight",
+            "URL": "http://stream.laut.fm/radiosummernight"
+        },
+        {
+            "Description": "Der Soundtrack unseres Lebens. 60er 70er 80er 90er",
+            "RadioName": "1000 Oldies",
+            "URL": "http://stream.laut.fm/1000oldies"
+        },
+        {
+            "Description": "We Are The Bass.",
+            "RadioName": "One Beatz",
+            "URL": "http://stream.laut.fm/one-beatz"
+        },
+        {
+            "Description": "Wir spielen die Besten Hits der 70,er,80,er,90er,Discofox und das neuste von Heute . ",
+            "RadioName": "Discosound Radio",
+            "URL": "http://stream.laut.fm/discosound-radio"
+        },
+        {
+            "Description": "Deep/ Tech/ - House Radio Station. ",
+            "RadioName": "Katzenpuff",
+            "URL": "http://stream.laut.fm/katzenpuff"
+        },
+        {
+            "Description": "UK BBC",
+            "RadioName": "BBC",
+            "URL": "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_one"
+        },
+        {
+            "Description": "aus der Schweiz",
+            "RadioName": "Radio Zuerisee",
+            "URL": "http://mp3.radio.ch/radiozuerisee128k"
+        },
+        {
+            "Description": "aus USA",
+            "RadioName": "wNYc",
+            "URL": "https://fm939.wnyc.org/wnycfm"
+        },
+        {
+            "Description": "aus USA",
+            "RadioName": "new Sounds",
+            "URL": "https://q2stream.wqxr.org/q2"
+        },
+        {
+            "Description": "aus USA",
+            "RadioName": "Operavore",
+            "URL": "https://opera-stream.wqxr.org/operavore"
+        },
+        {
+            "Description": "aus USA",
+            "RadioName": "New Standards",
+            "URL": "https://tjc.wnyc.org/js-stream"
+        }
+    ]
+}

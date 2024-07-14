@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/icon">
+        <file>images/ibs-logo_1.png</file>
+        <file>images/PauseIcon.png</file>
+        <file>images/PlayButtonIcon.png</file>
+        <file>images/recordIcon.png</file>
+        <file>images/pattern.png</file>
+        <file>images/Recordeit.png</file>
+        <file>images/file-icon.png</file>
+    </qresource>
+</RCC>
